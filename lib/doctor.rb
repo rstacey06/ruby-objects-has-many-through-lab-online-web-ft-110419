@@ -18,6 +18,6 @@ class Doctor
   end
   
   def appointments
-   Appointment.all {|a| a.doctor == self}
+   Appointment.all {|appointment| appointment.doctor == self}
   end
 end
