@@ -20,4 +20,7 @@ class Doctor
   def appointments
    Appointment.all {|appointment| appointment.doctor == self}
   end
+  
+  def patients 
+    
 end
