@@ -18,5 +18,5 @@ class Patient
   end
   
   def appointments
-    songs.map {|songs| songs.genre}
+    appointments.map {|appointments| appointments.genre}
   end 
