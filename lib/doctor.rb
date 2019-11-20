@@ -22,7 +22,7 @@ class Doctor
   end
   
   def patients  
-    songs.map {|songs| song.patient}
+    .map {|songs| song.patient}
   end
     
 end
