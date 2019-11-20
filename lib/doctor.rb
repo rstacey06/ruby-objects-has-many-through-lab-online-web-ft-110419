@@ -21,6 +21,8 @@ class Doctor
    Appointment.all {|appointment| appointment.doctor == self}
   end
   
-  def patients 
+  def patients  
+    songs.map {|songs| song.patient}
+  end
     
 end
